@@ -7,7 +7,7 @@ export const App = hot(_App)
 export function _App(): JSX.Element | null {
     return (
         <div>
-            <h1>Hello Ultron Monkey Boi, Lets Build Stuff!</h1>
+            <h1>Hello Paradise Bois, Lets Build Stuff!</h1>
             <MyJSComponent />
             <Counter />
         </div>
