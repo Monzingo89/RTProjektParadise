@@ -40,8 +40,6 @@ const NFTHoldingsComponent: FC = () =>{
             <ConnectionProvider endpoint={endpoint}>
                 <WalletProvider wallets={wallets} autoConnect>
                     <WalletModalProvider> 
-                            <WalletMultiButton />
-                            <WalletDisconnectButton />
                             <MyJSComponent />
                     </WalletModalProvider>
                 </WalletProvider>
