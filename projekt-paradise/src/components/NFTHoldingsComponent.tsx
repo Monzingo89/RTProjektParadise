@@ -1,5 +1,4 @@
 import React, { FC, useMemo }  from 'react';
-import { Outlet, useNavigate } from 'react-router';
 import { ConnectionProvider, WalletProvider } from '@solana/wallet-adapter-react';
 import {
     LedgerWalletAdapter,
@@ -17,7 +16,7 @@ import {
 } from '@solana/wallet-adapter-react-ui';
 import { clusterApiUrl } from '@solana/web3.js';
 import { WalletAdapterNetwork } from '@solana/wallet-adapter-base';
-import { MyJSComponent } from './MyJSComponent';
+import MyJSComponent from './MyJSComponent';
 require('@solana/wallet-adapter-react-ui/styles.css');
 
 const NFTHoldingsComponent: FC = () =>{
