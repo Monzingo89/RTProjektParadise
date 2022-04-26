@@ -15,8 +15,6 @@ export function App(): JSX.Element | null {
                 <Route path="/" element={<HomeComponent />} />
                 <Route path='holders' element={<NFTHoldingsComponent />} />
             </Routes>
-           
-            <FooterComponent />
         </>
     )
 }
